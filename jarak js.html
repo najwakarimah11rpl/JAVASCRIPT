@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan tes</title>
+    <style>
+        h1{color:black; background-color:blueviolet; }
+        h2{color: antiquewhite; background-color: blue;}
+        
+    </style>
+</head>
+<body style="background-color: black;">
+    <h1 style="background-color:yellow; color:black; text-align:center ">TES DULU BANG. SEBELUM NGEVENT</h1> <br><br>
+
+    <div>
+        <h1 >konversi jarak bejir</h1>
+    <input type="number" name="" id="meter" placeholder="masukan angka">
+    <button id="btn">konversi</button>
+    <h2 id="hasil">hasil konversi</h2>
+    </div>
+    <script>
+        //alert('p');
+        btn.onclick=function(){
+            const meter=document.querySelector("#meter");
+            const hasil= document.querySelector("#hasil");
+            hasil.innerHTML=meter.value/1000;
+        }
+    </script> <br>
+    
+    <div>
+        <h1>suhu coy</h1>
+        <input type="number" id="leh">
+        <button id="makima">klik</button>   
+        <h2 id="denji">hasil</h2>
+    </div><script>
+        makima.onclick= function(){
+            const leh=document.querySelector("#leh");
+            const denji=document.querySelector("#denji");
+            denji.innerHTML=(9/5)*leh.value+32;
+        }
+    </script> <br>
+
+    <div>
+        <h1>luas lingkaran</h1>
+        <input type="number" id="anu">
+        <button id="hah">klik</button>
+        <h2 id="iya">nilai</h2>
+    </div><script>
+         hah.onclick=function(){
+            const anu=document.querySelector("#anu").value;
+            const ling=document.querySelector("#iya");
+            ling.innerHTML=(3.14)*anu*anu;
+        } </script> <br>
+        
+        <div>
+            <h1>luas segitiga</h1>
+            <input type="number" id="gktw">
+            <button id="jdi">hitung</button>
+            <h2 id="gnile">hasil</h2>
+        </div><script>
+            jdi.onclick=function(){
+         //   const jdi=document.querySelector("#jdi");
+            const gnile=document.querySelector("#gktw");
+            const haha=document.querySelector("#gnile");
+            haha.innerHTML=(1/2)*gnile.value*gktw.value;}
+        </script> <br>
+        <div>
+            <h1>volume pake nanya</h1>
+            <input type="number" id="nanya">
+            <button id="pake">klik</button>
+            <h2 id="bahaya">nilai</h2>
+        </div><script>
+            pake.onclick= function(){
+                const nanya=document.querySelector("#nanya");
+                const bahaya=document.querySelector("#bahaya");
+                bahaya.innerHTML=nanya.value*nanya.value*nanya.value;}
+        </script> <br>
+        
+        <div>
+            <h1 id="h1" style="color: black;">mengubah css </h1>
+            <button id="ubah" >ganti</button>
+        </div><script>
+            ubah.onclick=function(){
+               const ubah= document.querySelector("#h1").style.backgroundColor='yellow';
+        
+            }
+        </script> <br>
+
+        <div>
+             <h1 id="waw">kelulusan</h1>
+            <input type="number" id="nil">
+            <button id="uya">setor</button>
+           </div> <script>
+            uya.onclick=function(){
+                const nil=document.querySelector("#nil").value;
+                const waw=document.querySelector("#waw");
+                const kkm=80;
+                if(nil<kkm){
+                    waw.innerHTML="mampuss";}
+                else{ waw.innerHTML="horee lulus";}} </script><br>
+
+            <div>
+                <h1 id="para">menambah elemen html</h1>
+                <button id="uba">klik</button>
+                </div>
+            <script>
+                uba.onclick=function(){
+                    const pw=document.querySelector("#para");
+                    let para=document.createElement('p');
+                  //  let isi=document.create('elemen new');
+                    para.textContent="ajarin dong puh";
+                    pw.appendChild(para);
+                }
+            </script><br>
+
+            <div>
+                <h1>zodiak</h1>
+                <input type="number" name="" id="bln" placeholder="masukan bulan">
+                <input type="number" name="" id="tgl" placeholder="masukan bulan">
+                <button id="ok">klik</button>
+                <h2 id="kmu">jenis zodiak kamu</h2>
+            </div><script>
+                ok.onclick= function(){
+                    const bln=document.querySelector("#bln").value;
+                    const tgl=document.querySelector("#tgl").value;
+                    const zodiak=document.querySelector("#kmu");
+                    if(bln== "" && tgl==""){
+                        alert("belum di isi");
+                    } else{
+                        if(bln==1){
+                            if(tgl>0&&tgl<20){
+                                zodiak.innerHTML='hitam';
+                            }if(tgl>19&&tgl<32){
+                                zodiak.innerHTML='jawir';}}}}
+            </script><br>
+
+    
+
+
+
+
+
+        <br><br>
+        <!-- <script>
+        hah.onclick= function(){
+            const anu= document.querySelector("#anu");
+            const oh=document.querySelector("#iya");
+            let iya=(22/7*anu.value*anu.value);
+            oh=innerHTML=iya;
+        }
+    </script> --> <br><br>
+
+    
+    <div>
+        <h1>sek</h1>
+        <input type="number" name="" id="gtw">
+        <button id="ywdh">klik</button>
+        <h2 id="kopi">hasil</h2>
+    </div><script>
+        const ywdh=document.querySelector("#ywdh")
+
+        m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+        ywdh.onclick=function(){
+            const nani=document.querySelector("#nani")
+        }
+    </script> <br><br>
+
+    <div>
+        <p style="color:antiquewhite ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas placeat debitis amet, obcaecati dicta voluptatum tenetur quos molestias quo totam dolores fugit dignissimos et quam modi similique iusto cumque!</p>
+    </div><script>
+        
+    </script>
+</body>
+</html>

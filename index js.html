@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=sce, initial-scale=1.0">
+    <title>javascript</title>
+    <script src="js baru.js" async defer></script> 
+    
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="ketik nama kamu" id="ketik">
+
+        <h1 id="waktu">waktu</h1>
+        <button id="jam">klik</button>
+        <button id="hari">waktu </button>
+
+        <br>
+        <input type="number" id="tanggal" placeholder="tanggal" >
+        <input type="number" id="bulan" placeholder="bulan">
+
+        <br>
+        <h1>yg mana zodiak mu</h1>
+        <button onclick="zodiak">
+            <h1>hehe</h1>
+            tekan </button>
+
+            <h1 id="hasil">hasil kali</h1>
+            <input type="number " id="'bill" placeholder="bilangan 1">
+            <input type="number " id="'bill" placeholder="bilangan 2">
+            <button onclick="hasil()">jawab</button>
+
+    </div>
+    <script>
+        function halo(){
+            alert('halo js');
+        } function waktu(){
+            document.getElementById('waktu').innerHTML=Date();} 
+
+        function zodiak(){
+            let tanggal=document.getElementById('tanggal').value;
+            let bulan=document.getElementById('bulan').value;
+            let zodiak='gtw';
+            if(bulan==1){
+                if(tanggal >0&& tanggal <20){
+                    console.log(zodiak="bebek");
+                }if(tanggal >19&& tanggal< 30){
+                    (zodiak='banteng');
+                }
+            }
+            document.getElementById('zodiak').innerHTML=bulan();}
+
+            function kali(){
+                let a=document.getElementById('bill').value;
+                let b=document.getElementById('bill').value;
+                let hasil=a*b;
+                document.getElementById('jawab').innerHTML=hasil();
+            }
+            function tambah(){
+
+            }
+    </script>
+
+
+
+</body>
+</html>

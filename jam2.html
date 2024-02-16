@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jam indo bilek</title>
+    <meta charset="UTF-8">
+    <style>
+    #clock {
+            font-size: 50px;
+            text-align: center;
+            color: antiquewhite;
+        }
+    h1{color: antiquewhite; text-align: center;
+    font-family: 'Times New Roman', Times, serif;}
+    h2{color: antiquewhite; text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+    </style>
+</head>
+
+<body  style="background-color: rgb(0, 0, 0);">
+    <h1>jam digital by nanaa</h1>
+    <h1>timing events</h1>
+    <div id ="clock"></div>
+    <script>
+        // interval
+        setInterval(() => {
+            let date =new Date()
+            let clock= document.getElementById('clock')
+            clock.innerHTML = 
+            date.getHours()+":"+
+            date.getMinutes()+":"+
+            date.getSeconds() },1000);
+
+            // time out
+            let a=setTimeout(b, 3000);
+            console.log('halo');
+            function b(){
+                console.log('siapa tuh kira2');
+            }
+    </script>
+    <h1 >Indonesia,Jawa Timur</h1>
+    <h2></h2>
+    <img src="https://i.pinimg.com/236x/9d/d9/39/9dd93960899150e2f858040903d3b61f.jpg">
+</body>
+</html>
